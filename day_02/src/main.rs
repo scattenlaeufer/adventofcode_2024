@@ -36,7 +36,6 @@ fn main() {
         .filter(|r| r.iter().max() <= Some(&3))
         .filter(|r| r.iter().min() >= Some(&1))
         .count();
-    dbg!(num_reports_safe);
 
-    // println!("There are {} safe reports", num_reports_safe);
+    println!("There are {} safe reports", num_reports_safe);
 }
